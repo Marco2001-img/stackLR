@@ -49,7 +49,8 @@ const Login = () => {
         
         </form>
 
-        <Link to="/auth/registro">¿No tienes cuenta? Registrate</Link>
+        <Link to="/auth/registro">¿No tienes cuenta? Registrate</Link><br />
+        <Link to="/auth/olvidar">¿Olvidaste contraseñe?</Link>
         
         </>
     );
