@@ -1,0 +1,20 @@
+/*Alinear elementos 
+*con justify-content ponemos los elemos donde queremos
+*space-between los elementos tomaran un espacio grande 
+*space-around centrados pero con espacio prudente
+*end final
+*start por defecto
+
+display: flex; 
+justify-content: flex-start; alineacion verticalmente
+align-items: center;
+
+ flex-wrap: wrap; elementos no caben en la pantalla
+
+*/
+.container{
+    display: flex; 
+    justify-content: flex-start;
+   flex-wrap: wrap;
+
+}
